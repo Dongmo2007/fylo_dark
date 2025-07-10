@@ -291,6 +291,17 @@ footer {
   .main {
     width: 60%;
   }
+  .option {
+    margin-top: 20px;
+  }
+  .product,
+  .com,
+  .st {
+    margin-top: 25px;
+  }
+  .foot {
+    height: 22vh;
+  }
 }
 @media screen and (max-width: 380px) {
   .main {
@@ -340,7 +351,7 @@ footer {
   }
   .option {
     display: inline-block;
-    margin-top: -122%;
+    margin-top: -110%;
     padding: 20px;
   }
   .cpri {
