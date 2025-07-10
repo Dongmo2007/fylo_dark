@@ -343,7 +343,7 @@ footer {
   }
   .option {
     display: inline-block;
-    margin-top: -110%;
+    margin-top: -100%;
     padding: 20px;
   }
   .cpri {
@@ -370,7 +370,7 @@ footer {
     display: inline-block;
   }
   .cm {
-    height: 22vh;
+    height: 24vh;
     margin-left: -0px;
   }
   .cm img {
@@ -394,12 +394,12 @@ footer {
     display: inline-block;
   }
   .search input {
-    padding: 10px 40px;
+    padding: 10px 30px;
     margin-top: -10px;
   }
   button {
     text-align: center;
-    padding: 10px 40px;
+    padding: 10px 30px;
     margin-top: 8px;
     margin-left: 1px;
   }
@@ -433,7 +433,7 @@ footer {
   }
 
   .tel {
-    margin-top: 5px;
+    margin-top: 10px;
   }
   .tel p,
   .mail p {
@@ -459,7 +459,7 @@ footer {
   }
   .ct {
     height: 7vh;
-    /* width: 100%; */
+    width: 100%;
     display: inline-block;
     margin-top: -15px;
   }
