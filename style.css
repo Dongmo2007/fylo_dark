@@ -291,6 +291,9 @@ footer {
   .main {
     width: 60%;
   }
+  .foot {
+    height: 30vh;
+  }
 }
 @media screen and (max-width: 380px) {
   .main {
