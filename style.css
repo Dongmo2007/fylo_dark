@@ -8,13 +8,15 @@ body {
   margin: auto;
   margin-top: 20px;
   /* display: grid; */
-  gap: 25px;
+  gap: 35px;
+  border: 4px solid hsl(218, 28%, 13%);
 }
 .head {
+  margin-top: 0px;
   /* width: 100%; */
   height: 5vh;
   display: flex;
-  margin: 10px;
+  /* margin: 10px; */
   justify-content: center;
   align-items: center;
 }
@@ -52,6 +54,7 @@ nav ul li a:hover {
   border-bottom: 4px solid hsl(0, 0%, 100%);
 }
 .intro {
+  margin-top: 80px;
   display: inline-block;
   margin-bottom: 180%;
   margin-left: 15%;
@@ -84,18 +87,17 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px 30px;
-
   margin: 10px;
-  margin-top: -170%;
+  margin-top: -165%;
   height: 50vh;
 }
 .cpri {
   margin-top: 10px;
   padding-top: 5px;
-  margin-left: 20px;
+  margin-left: 30px;
   text-align: center;
   height: 20vh;
-  width: 90%;
+  width: 80%;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -118,8 +120,10 @@ p {
 .product {
   display: flex;
   height: 20vh;
+  margin-top: 5%;
 }
 .product .pro {
+  margin-left: 8px;
   width: 58%;
 }
 .anim {
@@ -143,7 +147,7 @@ a {
 .com {
   text-align: center;
   height: 20vh;
-  margin-top: 40px;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -162,7 +166,7 @@ a {
 
   width: 170px;
   height: 5vh;
-  margin-top: -1px;
+  margin-top: 2px;
 }
 .pers img {
   width: 42px;
@@ -179,6 +183,8 @@ a {
 }
 
 .st {
+  margin-top: 50px;
+  background-color: hsl(217, 28%, 15%);
   text-align: center;
   margin-left: 16%;
   display: inline-block;
@@ -206,16 +212,18 @@ button:hover {
 .foot {
   grid-template-columns: 1fr 1fr;
   background-color: hsl(216, 53%, 9%);
-
   margin: auto;
-  height: auto;
-  width: 40%;
+  height: 21vh;
+  width: 100%;
+  margin-top: -60px;
   /* color: white; */
 }
 footer {
   display: flex;
 }
 .logo {
+  margin-left: 40px;
+  margin-top: 70px;
   display: inline-block;
   width: 40%;
   height: auto;
@@ -226,6 +234,8 @@ footer {
 }
 .lo {
   display: flex;
+  height: 100px;
+  width: 80%;
 }
 .lo p {
   margin-top: -2px;
@@ -240,6 +250,8 @@ footer {
 
 .contact {
   height: auto;
+  margin-top: 85px;
+  margin-left: -50px;
 }
 .tel {
   margin-top: 30px;
@@ -255,4 +267,197 @@ footer {
 .mail p {
   margin-left: 10px;
   margin-top: 5px;
+}
+.ab {
+  margin-top: 105px;
+  width: 20%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1px;
+  text-align: center;
+  margin-left: 45px;
+}
+.ct {
+  /* border: 4px solid; */
+  height: auto;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 14px; */
+  margin-bottom: -13px;
+}
+@media screen and (max-width: 1440px) {
+  .main {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main {
+    margin: auto;
+    display: inline-block;
+    border: 2px solid white;
+    height: auto;
+    width: 100%;
+    gap: 15px;
+  }
+  .head {
+    margin-top: 0px !important;
+    height: 5vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .head img {
+    width: 20% !important;
+    height: 80% !important;
+    margin-top: 0px !important;
+    margin-left: 28px !important;
+  }
+  header {
+    font-size: 11px;
+    padding-left: 5%;
+  }
+  nav {
+    margin-left: 10px;
+  }
+  nav ul {
+    padding: 10px 5px;
+  }
+  nav ul li {
+    padding: 0px 14px;
+  }
+  .intro {
+    display: inline-block;
+    margin-top: 12%;
+  }
+  .intro img {
+    height: 25vh;
+    width: 80%;
+  }
+  .intro button {
+    margin-left: -1px;
+  }
+  .option {
+    display: inline-block;
+    margin-top: -122%;
+    padding: 20px;
+  }
+  .cpri {
+    display: inline-block;
+    padding: 5px;
+    margin: 30px;
+  }
+  .product {
+    text-align: center;
+    margin-top: 20%;
+    display: inline-block;
+  }
+  .anim {
+    padding: 5px;
+    margin-left: 2px;
+    text-align: center;
+    display: inline-block;
+  }
+  .lien {
+    margin-left: 9px;
+    width: 56%;
+  }
+  .com {
+    display: inline-block;
+  }
+  .cm {
+    height: 22vh;
+    margin-left: -0px;
+  }
+  .cm img {
+    margin-top: 5px;
+    height: 7vh;
+    width: 30%;
+  }
+  .per {
+    padding-top: -5px;
+    display: inline-block;
+  }
+  .per p {
+    margin-top: -10px;
+  }
+  .st {
+    display: inline-block;
+    width: 80%;
+    margin-left: 35px;
+  }
+  .search {
+    display: inline-block;
+  }
+  .search input {
+    padding: 10px 40px;
+    margin-top: -10px;
+  }
+  button {
+    text-align: center;
+    padding: 10px 40px;
+    margin-top: 8px;
+    margin-left: 1px;
+  }
+  footer {
+    display: inline-block;
+  }
+  .foot {
+    height: auto;
+  }
+  .logo {
+    width: 70%;
+    margin-top: 80px;
+    display: inline-block;
+  }
+  .logo .im {
+    height: 5vh;
+    width: 40%;
+    margin-left: 10px;
+  }
+  .lo {
+    margin-top: 15px;
+  }
+  .lo img {
+    height: 2vh;
+    width: 25%;
+  }
+  .contact {
+    display: inline-block;
+    margin-left: 27px;
+    margin-top: -8px;
+  }
+
+  .tel {
+    margin-top: 5px;
+  }
+  .tel p,
+  .mail p {
+    margin-top: 1px;
+  }
+  .tel .te {
+    height: 2vh;
+    width: 10%;
+  }
+  .mail .ma {
+    height: 2vh;
+    width: 10%;
+  }
+  .ab {
+    height: auto;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 33px;
+  }
+  .ct {
+    height: 7vh;
+    /* width: 100%; */
+    display: inline-block;
+    margin-top: -15px;
+  }
 }
