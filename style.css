@@ -299,7 +299,6 @@ footer {
   .main {
     margin: auto;
     display: inline-block;
-    border: 2px solid white;
     height: auto;
     width: 100%;
     gap: 15px;
@@ -370,7 +369,7 @@ footer {
     display: inline-block;
   }
   .cm {
-    height: 24vh;
+    height: 27vh;
     margin-left: -0px;
   }
   .cm img {
@@ -394,12 +393,12 @@ footer {
     display: inline-block;
   }
   .search input {
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: -10px;
   }
   button {
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: 8px;
     margin-left: 1px;
   }
@@ -433,7 +432,7 @@ footer {
   }
 
   .tel {
-    margin-top: 10px;
+    margin-top: 18px;
   }
   .tel p,
   .mail p {
@@ -449,7 +448,7 @@ footer {
   }
   .ab {
     height: auto;
-    width: 30%;
+    width: 40%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -459,7 +458,7 @@ footer {
   }
   .ct {
     height: 7vh;
-    width: 100%;
+    /* width: 100%; */
     display: inline-block;
     margin-top: -15px;
   }
