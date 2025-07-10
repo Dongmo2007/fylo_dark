@@ -291,17 +291,6 @@ footer {
   .main {
     width: 60%;
   }
-  .option {
-    margin-top: -20px;
-  }
-  .product,
-  .com,
-  .st {
-    margin-top: -25px;
-  }
-  .foot {
-    height: 32vh;
-  }
 }
 @media screen and (max-width: 380px) {
   .main {
